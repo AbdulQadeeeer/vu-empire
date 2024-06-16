@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abdulqadeeeer&label=Profile%20views&color=0e75b6&style=flat" alt="abdulqadeeeer" /> </p>
 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abdulqadeeeer" alt="abdulqadeeeer" /></a> </p>
+
 - 🔭 I’m currently working on [90-Days of web developement course](https://abdulqadeeeer.github.io/code-with-infinitie-dev/)
 
 <h3 align="left">Connect with me:</h3>
