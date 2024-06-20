@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-color: bisque;
+            margin: 0;
+            width: 90%;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .video-container {
+            width: 45%;
+            margin: 20px 0;
+        }
+
+        video {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.186);
+        }
+
+        video:hover {
+            background-color: #0057b368;
+            animation: reverse;
+        }
+
+        .video-title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>cs420</h3>
+    <h3>Web Development for Portable Devices</h3>
+    <div class="container">
+        <div class="video-container">
+            <div class="video-title">1-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/Week1-01.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/Week1-02.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/Week1-2-1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/week1-3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/week1-4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 6</div>
+            <video controls>
+                <source src="../video/cs420/week1-5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">1-Lecture 7</div>
+            <video controls>
+                <source src="../video/cs420/week1-6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/2-01.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/2-2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/2-3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/2-4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/2-5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 6</div>
+            <video controls>
+                <source src="../video/cs420/2-6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 7</div>
+            <video controls>
+                <source src="../video/cs420/2-7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 8</div>
+            <video controls>
+                <source src="../video/cs420/2-8.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">2-Lecture 9</div>
+            <video controls>
+                <source src="../video/cs420/2-9.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">3-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/3-1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">3-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/3.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">3-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/3-3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">3-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/3-4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">3-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/3-5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/4.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/4.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/4.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/4.4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/4.5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 6</div>
+            <video controls>
+                <source src="../video/cs420/4.6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 7</div>
+            <video controls>
+                <source src="../video/cs420/4.7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture 8</div>
+            <video controls>
+                <source src="../video/cs420/4.8.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">4-Lecture flexbox 9</div>
+            <video controls>
+                <source src="../video/cs420/CSS_Flex_BOX.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/5.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/5.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/5.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/5.4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/5.5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 6</div>
+            <video controls>
+                <source src="../video/cs420/5.6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 7</div>
+            <video controls>
+                <source src="../video/cs420/5.7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">5-Lecture 8</div>
+            <video controls>
+                <source src="../video/cs420/5.8.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/6.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/6.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/6.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/6.4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/6.5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 6</div>
+            <video controls>
+                <source src="../video/cs420/6.6.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">6-Lecture 7</div>
+            <video controls>
+                <source src="../video/cs420/6.7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">7-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/7.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">7-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/7.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">7-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/7.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">8-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/8.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">8-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/8.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">8-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/8.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">8-Lecture 4</div>
+            <video controls>
+                <source src="../video/cs420/8.4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">8-Lecture 5</div>
+            <video controls>
+                <source src="../video/cs420/8.5.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">9-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/9.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">9-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/9.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">9-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/9.3.mp4week1-3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">10-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/week1-3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">10-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/10.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">10-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/10.2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">10-Lecture 3</div>
+            <video controls>
+                <source src="../video/cs420/10.3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">11-Lecture 1</div>
+            <video controls>
+                <source src="../video/cs420/11.1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <div class="video-title">11-Lecture 2</div>
+            <video controls>
+                <source src="../video/cs420/11.2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</body>
+
+</html>
